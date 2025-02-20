@@ -1,64 +1,41 @@
+# AutoGPT Contribution Guide
+If you are reading this, you are probably looking for the full **[contribution guide]**,
+which is part of our [wiki].
 
-To contribute to this GitHub project, you can follow these steps:
+Also check out our [🚀 Roadmap][roadmap] for information about our priorities and associated tasks.
+<!-- You can find our immediate priorities and their progress on our public [kanban board]. -->
 
-1. Fork the repository you want to contribute to by clicking the "Fork" button on the project page.
+[contribution guide]: https://github.com/Significant-Gravitas/AutoGPT/wiki/Contributing
+[wiki]: https://github.com/Significant-Gravitas/AutoGPT/wiki
+[roadmap]: https://github.com/Significant-Gravitas/AutoGPT/discussions/6971
+[kanban board]: https://github.com/orgs/Significant-Gravitas/projects/1
 
-2. Clone the repository to your local machine using the following command:
+## Contributing to the AutoGPT Platform Folder
+All contributions to [the autogpt_platform folder](https://github.com/Significant-Gravitas/AutoGPT/blob/master/autogpt_platform) will be under our [Contribution License Agreement](https://github.com/Significant-Gravitas/AutoGPT/blob/master/autogpt_platform/Contributor%20License%20Agreement%20(CLA).md). By making a pull request contributing to this folder, you agree to the terms of our CLA for your contribution. All contributions to other folders will be under the MIT license.
 
-```
-git clone https://github.com/<YOUR-GITHUB-USERNAME>/Auto-GPT
-```
-3. Install the project requirements
-```
-pip install -r requirements.txt
-```
-4. Install pre-commit hooks
-```
-pre-commit install
-```
-5. Create a new branch for your changes using the following command:
+## In short
+1. Avoid duplicate work, issues, PRs etc.
+2. We encourage you to collaborate with fellow community members on some of our bigger
+   [todo's][roadmap]!
+   * We highly recommend to post your idea and discuss it in the [dev channel].
+3. Create a draft PR when starting work on bigger changes.
+4. Adhere to the [Code Guidelines]
+5. Clearly explain your changes when submitting a PR.
+6. Don't submit broken code: test/validate your changes.
+7. Avoid making unnecessary changes, especially if they're purely based on your personal
+   preferences. Doing so is the maintainers' job. ;-)
+8. Please also consider contributing something other than code; see the
+   [contribution guide] for options.
 
-```
-git checkout -b "branch-name"
-```
-6. Make your changes to the code or documentation.
-- Example: Improve User Interface or Add Documentation.
+[dev channel]: https://discord.com/channels/1092243196446249134/1095817829405704305
+[code guidelines]: https://github.com/Significant-Gravitas/AutoGPT/wiki/Contributing#code-guidelines
 
+If you wish to involve with the project (beyond just contributing PRs), please read the
+wiki page about [Catalyzing](https://github.com/Significant-Gravitas/AutoGPT/wiki/Catalyzing).
 
-7. Add the changes to the staging area using the following command:
-```
-git add .
-```
+In fact, why not just look through the whole wiki (it's only a few pages) and
+hop on our Discord. See you there! :-)
 
-8. Commit the changes with a meaningful commit message using the following command:
-```
-git commit -m "your commit message"
-```
-9. Push the changes to your forked repository using the following command:
-```
-git push origin branch-name
-```
-10. Go to the GitHub website and navigate to your forked repository.
-
-11. Click the "New pull request" button.
-
-12. Select the branch you just pushed to and the branch you want to merge into on the original repository.
-
-13. Add a description of your changes and click the "Create pull request" button.
-
-14. Wait for the project maintainer to review your changes and provide feedback.
-
-15. Make any necessary changes based on feedback and repeat steps 5-12 until your changes are accepted and merged into the main project.
-
-16. Once your changes are merged, you can update your forked repository and local copy of the repository with the following commands:
-
-```
-git fetch upstream
-git checkout master
-git merge upstream/master
-```
-Finally, delete the branch you created with the following command:
-```
-git branch -d branch-name
-```
-That's it you made it 🐣⭐⭐
+❤️ & 🔆
+The team @ AutoGPT
+https://discord.gg/autogpt
